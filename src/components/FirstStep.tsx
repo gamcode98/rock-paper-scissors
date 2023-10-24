@@ -16,7 +16,7 @@ export function FirstStep (props: Props) {
   }
 
   return (
-    <div className='relative'>
+    <div className='relative mb-12'>
       <div className='relative flex flex-wrap justify-between mb-8'>
         <button onClick={() => handleClick(ELEMENTS.PAPER)}>
           <Element iconName={ELEMENTS.PAPER} />
